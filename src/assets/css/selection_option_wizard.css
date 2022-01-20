@@ -1,0 +1,45 @@
+/* BEGIN: selection-option-wizard */
+.selection-option-wizard {
+    background-color: rgb(18, 18, 18);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: none;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    display: none!important;
+    top: -40px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 3px 3px;
+}
+.selection-option-wizard .list-inline-item:not(:last-child) {
+    margin-right: 3px;
+}
+.heading-options:hover .selection-option-wizard {
+    display: flex!important;
+}
+.heading-options:focus .selection-option-wizard {
+    display: flex!important;
+}
+/* END: selection-option-wizard */
+.z-depth-1 {
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.hoverable:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%),
+    0 6px 20px 0 rgb(0 0 0 / 19%);
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Delete Button */
+.delete-btn:focus {
+    box-shadow: none!important;
+}
+.delete-btn:hover {
+    background-color: #dc3545;
+    color:white!important;
+}
